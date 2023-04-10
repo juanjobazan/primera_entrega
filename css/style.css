@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
+.nav {
+    background-color: #fcc41d;
+}
+
+.nav a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+   
+   
+}
+
+.footer {
+    background-color: #b8c99d;
+}
+
+.footer a {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 22px;
+}
+
+.footer h5 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 22px;
+    
+}
+
+.h2 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+th{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+
+td{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 22px;
+}
+
+.boton{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+  
+
+}
+
+.buuton{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-alta{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h5{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 22px;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 22px;
+    font-weight: bold; 
+}
+
+.formularioClase{
+    box-shadow: 10px 5px 5px black;
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/logo_png.png">
+    <title>Mr Burger</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../html/admin.html"><img src="../img/logo_png.png" width="50"
+                        height="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link  text-dark" aria-current="page"
+                                href="../html/admin.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                           <button type="button" class="btn boton" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Usuarios
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header formularioClase">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><img
+                                                    src="../img/logo_png.png" width="50" height="50">Listado de Usuarios</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body formularioClase">
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-sm">
+                                                    <thead class="table-dark">
+                                                        <tr>
+                                                            <th scope="col">ID</th>
+                                                            <th scope="col">Usuario</th>
+                                                            <th scope="col">Correo</th>
+                                                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>jubazan</td>
+                                                            <td>ju@bazan</td>
+                                                           
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>mvmelina</td>
+                                                            <td>mv@melina</td>
+                                                           
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>mvtoledo</td>
+                                                            <td>mv@toledo</td>
+                                                            
+                                                        </tr>
+                                                        
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                           <button type="button" class="btn boton" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1">
+                                Productos
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header formularioClase">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel1"><img
+                                                    src="../img/logo_png.png" width="50" height="50">Listado de Productos</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body formularioClase">
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-sm">
+                                                    <thead class="table-dark">
+                                                        <tr>
+                                                            <th scope="col">ID</th>
+                                                            <th scope="col">Nombre</th>
+                                                            <th scope="col">Descripcion</th>
+                                                            <th scope="col">Precio</th>
+                                                            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Comun</td>
+                                                            <td>2 finitas</td>
+                                                            <td>$400</td>
+                                                           
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Simple</td>
+                                                            <td>finita</td>
+                                                            <td>$250</td>
+                                                           
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Chedar</td>
+                                                            <td>queso chedar</td>
+                                                            <td>$500</td>
+                                                            
+                                                        </tr>
+                                                        
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                           <button type="button" class="btn boton" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal2">
+                                Nuevo Producto
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header formularioClase">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel2"><img
+                                                    src="../img/logo_png.png" width="50" height="50">Nuevo Producto</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body formularioClase">
+                                            <form class="form-alta">
+                                                <div class="mb-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp" required
+                                                        placeholder="Ingrese el nombre del Producto">
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1"
+                                                        class="form-label">Descripcion</label>
+                                                    <input type="text" class="form-control" id="exampleInputPassword1"
+                                                        required placeholder="Ingrese la descripcion de producto">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1" class="form-label">Precio</label>
+                                                    <input type="number" class="form-control" id="exampleInputPassword1"
+                                                        required maxlength="5"
+                                                        placeholder="Ingrese el precio del producto">
+                                                </div>
+
+                                                <button type="submit" class="btn btn-danger text-center">Cargar</button>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                    <div class="d-flex">
+                        <a href="../index.html" class="nav-link text-dark mx-5">Cerrar Sesion</a>
+                    
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="py-5 mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-md-6 my-5">
+                    <div class="card border-primary rounded-0">
+                        <div class="card-header bg-primary rounded-0">
+                            <h5 class="card-title text-white mb-1">Cantidad de Usuarios</h5>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="display-4 font-weight-bold text-primary text-center">105</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-md-6 my-5">
+                    <div class="card border-success rounded-0">
+                        <div class="card-header bg-success rounded-0">
+                            <h5 class="card-title text-white mb-1">Cantidad de Productos</h5>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="display-4 font-weight-bold text-success text-center">75</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <footer class="py-5 mt-5 footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="../index.html"><img src="../img/logo_png.png" width="80" height="80"></a>
+                    <h5 class="text-dark">Wsp: 3815396425</h5>
+                    <h5 class="text-dark">mr.buerger@gmail.com</h5>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h5 class="text-dark">Redes</h5>
+                    <a href="" class="nav-link text-dark">Facebook</a>
+                    <a href="" class="nav-link text-dark mx-3">Instagram</a>
+                    <a href="" class="nav-link text-dark">TikTok</a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h5 class="text-dark">Horarios</h5>
+
+                    <h5 class="text-dark">Lun-Vie: 11 a 22hs</h5>
+                    <h5 class="text-dark">Sab-Dom: 11 a 00hs</h5>
+                    <h5 class="text-dark">Smt Virgen de la Merced 737</h5>
+                    <h5 class="text-dark">&#169 Mr Burger 2023</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

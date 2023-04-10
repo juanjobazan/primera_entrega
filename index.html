@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo_png.png">
+    <title>Mr Burger</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo_png.png" width="50" height="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Nosotros</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="d-flex">
+
+
+                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                            aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header formularioClase">
+                                        <h5 class="modal-title" id="exampleModalToggleLabel"><img
+                                                src="./img/logo_png.png" width="50" height="50">Iniciar Sesion</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body formularioClase">
+                                        <div class="row">
+                                            <div class="col-xs-6 col-lg-6 col-md-6">
+                                                <div class="mb-3">
+                                                    <button type="submit" class="btn btn-outline-info">Facebook</button>
+                                                    <button type="submit" class="btn btn-outline-danger">Google</button>
+                                                </div>
+                                                <div class="well">
+                                                    <form class="mb-3">
+                                                        <div class="form-group">
+                                                            <label for="username" class="control-label">Usuario</label>
+                                                            <input type="text" class="form-control" id="username"
+                                                                name="username" placeholder="ingrese su usuario"
+                                                                maxlength="30" minlength="8" required>
+                                                            <span class="help-block"></span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="password"
+                                                                class="control-label">Contraseña</label>
+                                                            <input type="password" class="form-control" id="password"
+                                                                name="password" placeholder="Ingrese su Contraseña"
+                                                                maxlength="50" minlength="8" required>
+
+                                                        </div>
+
+
+                                                        <button type="submit"
+                                                            class="btn btn-outline-primary mt-4">Iniciar Sesion</button>
+                                                        <a href="./html/usuario.html">.</a>
+                                                        <a href="./html/admin.html">.</a>
+                                                    </form>
+                                                    <div class="modal-footer col-md-12 col-xs-12 text-left">
+                                                        <button class="btn" data-bs-target="#exampleModalToggle2"
+                                                            data-bs-toggle="modal">Olvide
+                                                            mi contraseña</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-lg-6 col-md-6">
+                                                <img src="./img/login.png" class="img-fluid" alt="Responsive image">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                            aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <div class="modal-body formularioClase">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header formularioClase">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel22">
+                                                        <img src="./img/logo_png.png" width="50" height="50">Mr Burger
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <form class="form-alta">
+                                                    <div class="modal-body">
+                                                        <label for="">*Email:</label>
+                                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                                            aria-describedby="emailHelp" placeholder="Ingrese su Email"
+                                                            required>
+                                                        <p>Recibiras un email para restablecer tu
+                                                            contraseña</p>
+                                                        <button type="submit" class="btn btn-outline-primary">Enviar
+                                                            E-mail</button>
+                                                    </div>
+
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn boton" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Iniciar
+                            Sesion</a>
+
+
+
+
+
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Registrarme
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel"><img
+                                                src="./img/logo_png.png" width="50" height="50">Registrarme </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body formularioClase">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Nombre de
+                                                    Usuario</label>
+                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp" maxlength="50" minlength="5" required
+                                                    placeholder="Ingrese su nombre de Usuario">
+
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp" maxlength="50" minlength="10" required
+                                                    placeholder="Ingrese su direccion de correo electronico">
+
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                                    required maxlength="80" minlength="8"
+                                                    placeholder="Ingrese su Contraseña">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Repetir
+                                                    Contraseña</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                                    required maxlength="80" minlength="8"
+                                                    placeholder="Repita su Contraseña">
+                                            </div>
+
+                                            <button type="submit" class="btn btn-primary">Confirmar</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer formularioClase">
+                                        <h1 class="modal-title">Ya tengo cuenta<a href="./html/login.html"> INICIAR
+                                                SESION</a></h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+
+
+
+
+    <footer class="py-5 mt-5 footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="./index.html"><img src="./img/logo_png.png" width="80" height="80"></a>
+                    <h5 class="text-dark">Wsp: 3815396425</h5>
+                    <h5 class="text-dark">mr.buerger@gmail.com</h5>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h5 class="text-dark">Redes</h5>
+                    <a href="" class="nav-link text-dark">Facebook</a>
+                    <a href="" class="nav-link text-dark mx-3">Instagram</a>
+                    <a href="" class="nav-link text-dark">TikTok</a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h5 class="text-dark">Horarios</h5>
+
+                    <h5 class="text-dark">Lun-Vie: 11 a 22hs</h5>
+                    <h5 class="text-dark">Sab-Dom: 11 a 00hs</h5>
+                    <h5 class="text-dark">Smt Virgen de la Merced 737</h5>
+                    <h5 class="text-dark">&#169 Mr Burger 2023</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
